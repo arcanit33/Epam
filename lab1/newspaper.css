@@ -1,0 +1,59 @@
+body{
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    font-size: 25px;
+    color: #2f2f2f;
+    background-image: url('background.jpg');
+}
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    /* display: inline-block; */
+    line-height: 72px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+p.col{
+    margin-top: 0;
+    margin-bottom: 20px;
+    column-count: 3;
+}
+hr {
+    border: 1px solid black;
+  }
+.cap{
+    font-size: 14px;
+    position: absolute;
+    /* bottom: 360px; */
+    top: 69%;
+    left: 1075px;
+    border-bottom: 2px solid black;
+}
+.title{
+    position: absolute;
+    /* margin-top: auto; */
+    top: 73%;
+    width: 700px;
+    left: 1000px;
+}
+.section{
+    word-spacing: 100px;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.pic1{
+    margin-left: 100px;
+}
+.pic2{
+    position: absolute;
+    /* bottom: 360px; */
+    top: 50%;
+    margin-left: 200px;
+}
